@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 8.05rem;
+    background-color: #181D2B;
+    color: #FFFFFF;
+
+    &ListsAndFeedback {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8rem;
+        &:not(:last-child){
+            margin-right: 2rem;
+        }
+    }
+
+    h3 {
+        font-family: 'Satoshi-Bold';
+        font-size: 2.4rem;
+        margin-bottom: 1.6rem;
+    }
+    a{
+        color: #FFFFFF;
+    }
+}
+
+.feedback {
+    p {
+        font-size: 3.2rem;
+        margin-bottom: 4rem;
+    }
+}
+
+.footerNavigationWrapper {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.copyrightsAndSocialNetworks {
+    display: flex;
+    justify-content: space-between;
+
+    .socialNetworksLink {
+        display: flex;
+    }
+}
