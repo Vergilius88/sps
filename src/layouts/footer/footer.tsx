@@ -6,10 +6,10 @@ export const Footer = () => {
         <footer className="footer">
             <div className="footerListsAndFeedback">
                 <div className="feedback">
-                    <p>Always give the best result for every order we have!</p>
+                    <h3>Always give the best result for every order we have!</h3>
                     <form action="">
                         <input type="email" name="feedback" placeholder="E-mail" />
-                        <button>submit</button>
+                        <button>&#8594;</button>
                     </form>
                 </div>
                 <div className="footerNavigationWrapper">

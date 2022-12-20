@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { MainButton } from "../../components/button/mainButton"
 
 import "./header.scss"
 
@@ -15,7 +16,7 @@ export const Header =()=>{
             <Link className="navigationLink" to="/"> Service</Link>
             <Link className="navigationLink" to="/"> Contact Us</Link>
           </nav>
-          <button className="navigationButton">Order Now 	&#8594;</button>
+          <MainButton title="Order Now &#8594;"/>
         </header>
     )
 }
