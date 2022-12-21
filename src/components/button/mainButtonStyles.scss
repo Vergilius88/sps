@@ -1,12 +1,19 @@
 .mainButton {
     font-family: 'Satoshi-Bold';
-    padding: 0.8rem 3rem;
+
+    padding: 1.6rem 4rem;
     font-size: 1.6rem;
     line-height: 2.1rem;
     color: #FFFFFF;
     background-color: #3F7BF6;
     border-radius: 10rem;
 }
-.transparentButton{
+
+.navButton {
+    padding: 0.8rem 3rem;
+}
+
+.transparentButton {
     background-color: transparent;
+    border: 1px solid #ffffff;
 }

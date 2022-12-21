@@ -4,23 +4,13 @@
     align-items: center;
     padding: 2.5rem 8rem;
 
+
     .logo {
         font-family: 'Satoshi-Bold';
         font-size: 3.2rem;
         line-height: 4.8rem;
     }
 
-    .navigation {
-        .navigationLink {
-            color: #34383C;
-            font-size: 1.6rem;
-            line-height: 2.4rem;
-            &:not(:last-child){
-                margin-right: 4rem;
-            }
-        }
-
-    }
 
     .navigationButton {
         padding: 0.8rem 3rem;
@@ -29,5 +19,19 @@
         color: #FFFFFF;
         background-color: #3F7BF6;
         border-radius: 10rem;
+    }
+}
+
+.whiteStyle {
+    color: #FFFFFF;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    .navigation {
+        .navigationLink {
+            color: #FFFFFF;
+        }
     }
 }

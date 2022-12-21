@@ -1,5 +1,5 @@
 import { MainButton } from "../button/mainButton"
-import "./orderNow.scss"
+import "./orderNowStyles.scss"
 
 export const OrderNowBlock = () => {
     return (

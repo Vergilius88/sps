@@ -1,0 +1,12 @@
+.navigation {
+    .navigationLink {
+        color: #34383C;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+
+        &:not(:last-child) {
+            margin-right: 4rem;
+        }
+    }
+
+}

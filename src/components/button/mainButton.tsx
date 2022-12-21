@@ -1,4 +1,4 @@
-import "./mainButton.scss"
+import "./mainButtonStyles.scss"
 
 interface Props {
     title?: string,

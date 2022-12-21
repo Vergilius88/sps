@@ -6,12 +6,16 @@ import "./assets/baseStyle/normalize.css";
 import "./assets/baseStyle/fonts.css";
 import { Main } from "./layouts/main/main";
 import { OrderNowBlock } from "./components/orderNow/orderNow";
+import { Hero } from "./components/hero/hero";
+import { Benefits } from "./components/benefits/benefits";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header theme="whiteStyle"/>
       <Main>
+        <Hero />
+        <Benefits/>
         <OrderNowBlock />
       </Main>
       <Footer />

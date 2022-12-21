@@ -1,4 +1,4 @@
-import "./main.scss"
+import "./mainStyles.scss"
 
 interface Props{
     children?: any
