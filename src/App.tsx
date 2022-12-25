@@ -8,6 +8,7 @@ import { Main } from "./layouts/main/main";
 import { OrderNowBlock } from "./components/orderNow/orderNow";
 import { Hero } from "./components/hero/hero";
 import { Benefits } from "./components/benefits/benefits";
+import { SpecialOffer } from "./components/specialOffer/specialOffer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Main>
         <Hero />
         <Benefits/>
+        <SpecialOffer/>
         <OrderNowBlock />
       </Main>
       <Footer />
