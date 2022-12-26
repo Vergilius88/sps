@@ -1,0 +1,47 @@
+.specialOfferAdvantages {
+    background-color: #242D34;
+    padding: 2.4rem;
+    max-width: 66%;
+    margin-bottom: 4rem;
+
+    h3 {
+        margin-bottom: 2.4rem;
+        font-family: 'Satoshi-bold';
+        font-size: 2.4rem;
+    }
+
+    ul {
+        display: flex;
+        // flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        p {
+            font-size: 1.8rem;
+        }
+    }
+
+    .icon {
+        width: 1.9rem;
+        height: 1.9rem;
+        background-color: white;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1.4rem;
+
+        span {
+            color: #242D34;
+            font-weight: 700;
+            font-size: 1.3rem;
+
+        }
+    }
+}

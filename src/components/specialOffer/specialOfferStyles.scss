@@ -6,4 +6,20 @@
     // background: linear-gradient(244.62deg, #181D2B -16.18%, rgba(28, 40, 45, 0.8) 107.55%);
     background-color: #181D2B;
     color: #ffffff;
+
+    &Title {
+        font-family: 'Satoshi-bold';
+        font-size: 4.8rem;
+        margin-bottom: 1.6rem;
+    }
+
+    &Text {
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    &Description {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
 }
