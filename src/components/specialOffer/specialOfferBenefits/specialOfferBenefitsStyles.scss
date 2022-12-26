@@ -1,8 +1,9 @@
 .specialOfferAdvantages {
     background-color: #242D34;
     padding: 2.4rem;
-    max-width: 66%;
+    // max-width: 66%;
     margin-bottom: 4rem;
+    width: 100%;
 
     h3 {
         margin-bottom: 2.4rem;
@@ -12,16 +13,21 @@
 
     ul {
         display: flex;
-        // flex-direction: column;
+        flex-direction: column;
         justify-content: space-around;
+        // align-self: flex-start;
         flex-wrap: wrap;
+        width: 100%;
+        // height: 15rem;
     }
 
     li {
         display: flex;
         align-items: center;
         margin-bottom: 2rem;
-
+        margin-right: 2rem;
+        page-break-inside: avoid;
+        break-inside: avoid;
         p {
             font-size: 1.8rem;
         }
