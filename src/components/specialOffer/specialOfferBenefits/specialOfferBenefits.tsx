@@ -7,8 +7,8 @@ export const OfferAdvantages = () => {
         <div className="specialOfferAdvantages">
             <h3>Benefits</h3>
             <ul>
-                {testData.map(item =>
-                    <li>
+                {testData.map((item,i) =>
+                    <li key={i}>
                         <div className="icon">
                             <span>&#10003;</span></div>
                         <p>{item}</p>

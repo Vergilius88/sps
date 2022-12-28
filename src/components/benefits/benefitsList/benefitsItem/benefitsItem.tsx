@@ -6,9 +6,9 @@ interface Props {
     link?: string
 }
 
-export const BenefitsListItems = ({ title, text, link }: Props) => {
+export const BenefitsListItems = ({  title, text, link }: Props) => {
     return (
-        <li className="benefitsListItems">
+        <li className="benefitsListItems" >
             <div className="benefitsListItemsTitleWrapper">
                 <h4 className="benefitsListItemsTitle">{title}</h4>
                 <div className="benefitsListItemsIcon"></div>

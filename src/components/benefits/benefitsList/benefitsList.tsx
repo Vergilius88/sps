@@ -20,10 +20,11 @@ const testData = [
         link: "#"
     }
 ]
+
 export const BenefitsList = () => {
     return (
         <ul className="benefitsList">
-            {testData.map(item => <BenefitsListItems title={item.title} text={item.text} link={item.link} />)}
+            {testData.map((item,i )=> <BenefitsListItems key={i} title={item.title} text={item.text} link={item.link} />)}
         </ul>
     )
 }
