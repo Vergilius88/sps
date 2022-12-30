@@ -4,15 +4,24 @@
     align-items: center;
     background-color: #181D2B;
     color: #FFFFFF;
-    h2{
+    padding: 8rem 8rem 0;
+
+    h2 {
         font-family: 'Satoshi-Bold';
         font-size: 4rem;
         margin-bottom: 1.2rem;
-       text-align: center;
+        text-align: center;
     }
-    p{
+
+    p {
         font-size: 1.8rem;
         margin-bottom: 4rem;
     }
-    padding: 8rem;
+    .line {
+        width: 100%;
+        height: 0.05rem;
+        background-color: #DDDDDD99;
+        margin-top: 8rem;
+    }
+
 }
