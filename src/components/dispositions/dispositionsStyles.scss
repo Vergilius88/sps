@@ -1,0 +1,48 @@
+.dispositions {
+    width: 100%;
+    background-color: #FAFBFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 12rem 8rem;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 32vw;
+        height: 57vh;
+        background-color: #E8F0FC;
+        z-index: 0;
+    }
+
+
+    &Image {
+        width: 49%;
+        background-image: url(../../assets/images/dispositionsImage.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1.2rem;
+        z-index: 1;
+
+    }
+
+    &Content {
+        width: 49%;
+    }
+
+    &Title {
+        font-family: 'Satoshi-bold';
+        font-size: 4rem;
+        line-height: 130%;
+        margin-bottom: 1.6rem;
+    }
+
+    &Text {
+        font-size: 2rem;
+        line-height: 155%;
+        margin-bottom: 4rem;
+    }
+}

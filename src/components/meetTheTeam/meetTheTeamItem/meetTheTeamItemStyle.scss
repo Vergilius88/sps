@@ -1,0 +1,18 @@
+.meetTheTeamItem {
+    margin-bottom: 6rem;
+    &PhotoWrapper{
+        background-color: #D9D9D9;
+    }
+    &Name {
+        font-family: 'Satoshi-bold';
+        font-size: 3.2rem;
+        line-height: 130%;
+        margin-bottom: 0.8rem;
+    }
+
+    &Position {
+        font-size: 2rem;
+        line-height: 130%;
+        color: #747B86;
+    }
+}
