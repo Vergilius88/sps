@@ -8,6 +8,11 @@ import { Header } from "../../layouts/header/header"
 import { Main } from "../../layouts/main/main"
 
 
+const testData = {
+title:"We have special offer",
+text:"SPSS is designed to be used by every people. Try our standard plans for normal delivery, and get more benefit with cash on delivery"
+}
+
 export const Landing = () => {
     return (
         <>
@@ -16,7 +21,7 @@ export const Landing = () => {
                 <Hero />
                 <Benefits />
                 <Help />
-                <SpecialOffer />
+                <SpecialOffer title={testData.title} text={testData.text}/>
                 <Reviews />
                 <OrderNowBlock />
             </Main>

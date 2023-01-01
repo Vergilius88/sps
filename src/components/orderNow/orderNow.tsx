@@ -11,4 +11,4 @@ export const OrderNowBlock = () => {
             <span className="line"></span>
         </section >
     )
-}
+} 

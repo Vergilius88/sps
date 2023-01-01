@@ -8,6 +8,7 @@ import { AboutUs } from "./pages/aboutUs/aboutUs";
 import { Route, Routes } from "react-router-dom";
 import { routes } from "./assets/routes";
 import { BestSeller } from "./pages/bestSeller/bestSeller";
+import { Pricing } from "./pages/pricing/pricing";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path={routes.home} element={<Landing />} />
         <Route path={routes.aboutUs} element={<AboutUs />} />
         <Route path={routes.seller} element={<BestSeller />} />
+        <Route path={routes.pricing} element={<Pricing />} />
       </Routes>
       <Footer />
     </div>
