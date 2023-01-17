@@ -1,4 +1,4 @@
-import { AdditionalCost } from "../../components/additionalCost/additionalCost"
+import { AdditionalCost } from "../../components/additionalCost/additionalCostList"
 import { DeliveryMap } from "../../components/deliveryMap/deliveryMap"
 import { OrderNowBlock } from "../../components/orderNow/orderNow"
 import { SpecialOffer } from "../../components/specialOffer/specialOffer"

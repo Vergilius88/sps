@@ -1,0 +1,33 @@
+.additionalCostItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &Content {
+        margin-right: 13rem;
+    }
+
+    &Title {
+        font-family: 'Satoshi Bold';
+        font-size: 3.2rem;
+        line-height: 110%;
+    }
+
+    &Text {
+        font-size: 2.4rem;
+        line-height: 155%;
+    }
+
+    &:nth-child(2n) {
+        flex-direction: row-reverse;
+
+        .additionalCostItemContent {
+            margin-right: 0;
+        }
+
+        .additionalCostItemPhoto {
+            margin-right: 13rem;
+        }
+    }
+}
+
