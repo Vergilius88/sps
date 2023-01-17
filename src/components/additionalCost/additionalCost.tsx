@@ -14,8 +14,6 @@ export const AdditionalCost = () => {
                             <p></p>
                             <p>
                                 <span>
-
-                                    
                                 </span>
                             </p>
                         </div>
