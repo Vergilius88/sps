@@ -17,7 +17,7 @@ export const AdditionalCostItem = ({ title, text, cost }: Props) => {
                     <p>Starting at</p>
                     <p>{cost}
                         <span>
-                            / per unit
+                            / p er unit
                         </span>
                     </p>
                 </div>
