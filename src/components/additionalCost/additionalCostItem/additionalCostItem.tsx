@@ -1,5 +1,7 @@
 import "./additionalCostItemStyles.scss"
 
+import defaultImg from "../../../assets/images/shiipingCost1.jpg"
+
 interface Props {
     title: string,
     text: string,
@@ -17,12 +19,12 @@ export const AdditionalCostItem = ({ title, text, cost }: Props) => {
                     <p>Starting at</p>
                     <p>{cost}
                         <span>
-                            / p er unit
+                            / per unit
                         </span>
                     </p>
                 </div>
             </div>
-            <div className="additionalCostItemPhoto"><img src="#" alt="#" width="548px" height="400"/></div>
+            <div className="additionalCostItemPhoto"><img src={defaultImg} alt="#" width="548px" height="400"/></div>
 
         </li>
     )

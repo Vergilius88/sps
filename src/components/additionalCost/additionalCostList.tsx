@@ -11,6 +11,7 @@ const testData = [
         title: "Handling Fees",
         text: "In every product order that you place, there will also be a handling fee that we provide, a handling fee that we provide is flat",
         price: 2.99
+       
     }
 ]
 
@@ -19,7 +20,7 @@ export const AdditionalCost = () => {
     return (
         <section className="additionalCost">
             <ul className="additionalCostList">
-                {testData.map((item, index) => <AdditionalCostItem key={index} cost={item.price} text={item.text} title={item.title} />)}
+                {testData.map((item, index) => <AdditionalCostItem key={index} cost={item.price} text={item.text} title={item.title}/>)}
             </ul>
         </section>
     )
