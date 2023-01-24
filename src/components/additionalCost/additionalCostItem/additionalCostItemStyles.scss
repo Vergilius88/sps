@@ -27,6 +27,19 @@
 
         .additionalCostItemPhoto {
             margin-right: 13rem;
+            background-image: url("../../../assets/images/shiipingCost.jpg");
+        }
+    }
+
+    .additionalCost {
+        font-size: 1.8rem;
+        line-height: 155%;
+
+        span {
+            font-family: 'Satoshi Bold';
+            color: #3F7BF6;
+            font-size: 3.2rem;
+            line-height: 155%;
         }
     }
 }

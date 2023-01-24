@@ -1,6 +1,5 @@
 import "./additionalCostItemStyles.scss"
 
-import defaultImg from "../../../assets/images/shiipingCost1.jpg"
 
 interface Props {
     title: string,
@@ -16,15 +15,15 @@ export const AdditionalCostItem = ({ title, text, cost }: Props) => {
                 <h3 className="additionalCostItemTitle">{title}</h3>
                 <p className="additionalCostItemText">{text}</p>
                 <div className="additionalCost">
-                    <p>Starting at</p>
-                    <p>{cost}
+                    <p className="">Starting at</p>
+                    <p>
                         <span>
-                            / per unit
-                        </span>
+                            {cost}
+                        </span> / per unit
                     </p>
                 </div>
             </div>
-            <div className="additionalCostItemPhoto"><img src={defaultImg} alt="#" width="548px" height="400"/></div>
+            <div className="additionalCostItemPhoto"><img src="#" alt="#" width="548px" height="400" /></div>
 
         </li>
     )
